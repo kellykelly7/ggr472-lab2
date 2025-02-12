@@ -1,4 +1,5 @@
 .map-container {
+    /* adjust sizing and positioning of the map container */
     width: 1000px;
     height: 800px;
     margin: 0 auto;
@@ -29,6 +30,7 @@ p {
     font-size: 125%;
     background-color: sandybrown;
     color: whitesmoke;
+    /*edits the column width of the element*/
     width: 45%;
 }
 h2 {
