@@ -3,7 +3,7 @@ mapboxgl.accessToken = 'pk.eyJ1Ijoia2VsbHlrZWxseTciLCJhIjoiY202aWNjdDE5MDcwbTJrc
 const map = new mapboxgl.Map({
     container: 'campus-buildings', // map container ID
     style: 'mapbox://styles/kellykelly7/cm72971jc006x01s33axk653l', // style URL
-    center: [-79.3908, 43.6593], // starting position [lng, lat]
+    center: [-79.39473435218616, 43.66319033700751], // starting position [lng, lat]
     zoom: 14.5, // starting zoom level
 });
 
@@ -29,7 +29,7 @@ map.on('load', () => {
             'layout': {},
             'paint': {
                 'line-color': '#000',
-                'line-width': 2
+                'line-width': 1
             }
     });
     map.addSource('campus-path', {
@@ -46,7 +46,7 @@ map.on('load', () => {
             },
             'paint': {
                 'line-color': '#00ffff',
-                'line-width': 4
+                'line-width': 3
             }
     });
 });

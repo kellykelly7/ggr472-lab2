@@ -1,6 +1,41 @@
 .map-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-   }
+    width: 1000px;
+    height: 800px;
+    margin: 0 auto;
+    float: left;
+}
+h1 {
+    /*changes the colour of the text in this tag*/
+    color: #D2691E;
+    /*changes the alignment of the text in this tag*/
+    text-align: center;
+    /*sets the font family of the text in this tag*/
+    font-family: monospace;
+    /*sets the font size of the text in this tag (can be done with px or %)*/
+    font-size: 300%;
+  }
+nav {
+    text-align: center;
+    font-family: monospace;
+    font-size: 200%
+}
+body {
+    background-color: bisque;
+}
+p {
+    float: right;
+    text-align: center;
+    font-family: monospace;
+    font-size: 125%;
+    background-color: sandybrown;
+    color: whitesmoke;
+    width: 45%;
+}
+h3 {
+    font-family: monospace;
+    color: #D2691E;
+    float: right;
+    text-align: center;
+    font-size: 175%;
+    width: 45%;
+}
