@@ -31,6 +31,11 @@ p {
     color: whitesmoke;
     width: 45%;
 }
+h2 {
+    font-family: monospace;
+    color: #D2691E;
+    font-size: 175%;
+}
 h3 {
     font-family: monospace;
     color: #D2691E;
@@ -38,4 +43,66 @@ h3 {
     text-align: center;
     font-size: 175%;
     width: 45%;
+}
+
+.links {
+    width: 45%;
+    float: right;
+    text-align: center;
+}
+
+
+
+button { 
+    /*sets the font size of the text in all buttons with the class attribute of button*/
+    font-size: 16px;
+    /*sets the alignment of the text in all buttons with the class attribute of button*/
+    text-align: center;
+	}
+/*sub class that we are adding additional styling elements to unique to the button with this sub class*/
+.b1 {
+    /*sets the colour of the button*/
+    background-color: navy;
+    /*sets the colour of the text in the button*/
+    color : white; 
+    /*makes the button hover in the middle until more buttons are added to the same row -- the buttons are still centered*/
+    float: center;
+    /*rounds the corners of the edges of the button depending on magnitude of px*/
+    border-radius: 8px;
+    /*width of the button horizontally*/
+    width: 150px;
+    /*used to generate space around the text in the button*/
+    padding: 10px 24px;
+}
+.b2 {
+    background-color: white;
+    color: navy;
+    float: center;
+    border-radius: 8px;
+    width: 150px;
+    padding: 10px 24px;
+}
+.b3 {
+    background-color: navy;
+    color : white; 
+    float: center;
+    border-radius: 8px;
+    width: 220px;
+    padding: 10px 24px;
+}
+.b4 {
+    background-color: white;
+    color: navy;
+    float: center;
+    border-radius: 8px;
+    width: 220px;
+    padding: 10px 24px;
+}
+.b5 {
+    background-color: navy;
+    color : white;
+    float: center;
+    border-radius: 8px;
+    width: 325px;
+    padding: 10px 24px;
 }
