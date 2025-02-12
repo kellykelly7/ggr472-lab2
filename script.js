@@ -62,15 +62,6 @@ const ttb = document.getElementById("timetable_builder");
 const utl = document.getElementById("utlibraries");
 
 // adding a reaction to clicking on the buttons added to the html webpage
-btn.addEventListener("click", () => {
-    // opens a new window with the provided link, that is different per variable
-    window.open("https://sidneysmithcommons.artsci.utoronto.ca/", "_blank");
-});
-
-bttn.addEventListener("click", () => {
-    window.open("map.geojson", "_blank");
-});
-
 acorn.addEventListener("click", () => {
     window.open("https://acorn.utoronto.ca/", "_blank");
 });
